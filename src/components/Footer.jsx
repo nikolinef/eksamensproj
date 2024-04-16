@@ -2,7 +2,7 @@ export default function Footer() {
 
     return(
         <>
-        <nav>
+        <div className="footer">
             <div className="footerkontakt">
                 <ul><h4>Kontakt info</h4>
                 <li>Adresse</li>
@@ -23,7 +23,7 @@ export default function Footer() {
                 <a href="#">Facebook</a>
                 <a href="#">LinkedIn</a>
             </div>
-        </nav>
+        </div>
         </>
     )
 }
