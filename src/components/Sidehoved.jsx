@@ -1,15 +1,16 @@
+import { NavLink } from "react-router-dom";
+
 export default function Sidehoved() {
 
     return(
         <>
         <nav>
-            <div className="headerlogo"></div>
+        <NavLink to="/"><div className="headerlogo">Forside</div></NavLink>
 
             <div className="menu">
-                <a href="#">Forside</a>
-                <a href="#">Produkter</a>
-                <a href="#">Hvem er Evergreen?</a>
-                <a href="#">Kontakt</a>
+                <NavLink to="/products">Produkter</NavLink>
+                <NavLink to="/about">Om os</NavLink>
+                <NavLink to="/contact">Kontakt</NavLink>
             </div>
         </nav>
         </>
