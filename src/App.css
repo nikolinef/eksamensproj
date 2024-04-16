@@ -30,3 +30,13 @@
 .card img {
   border-radius: 25px;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  background-color: rgb(147, 147, 229);
+
+}
