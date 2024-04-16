@@ -8,9 +8,9 @@ export default function Sidehoved() {
         <NavLink to="/"><div className="headerlogo">Forside</div></NavLink>
 
             <div className="menu">
-                <NavLink to="/products">Produkter</NavLink>
-                <NavLink to="/about">Om os</NavLink>
-                <NavLink to="/contact">Kontakt</NavLink>
+                <NavLink to="/products" className="NavLink">Produkter</NavLink>
+                <NavLink to="/about" className="NavLink">Om Evergreen</NavLink>
+                <NavLink to="/contact" className="NavLink">Kontakt</NavLink>
             </div>
         </nav>
         </>
