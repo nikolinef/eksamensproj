@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Sidehoved from './components/Sidehoved'
-import cards from './components/Cards'
+import Cards from './components/Cards'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Sidehoved />
-      <cards />
+      <Cards />
     </>
   )
 }
