@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+nav{
+  background-color: #B9C186;
+  height: 15dvh;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5dvw;
+}
 
 .allcards {
   display: flex;
