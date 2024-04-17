@@ -33,10 +33,19 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background-color: #6A6F4C;
+  color: #CBB89D;
+  padding: 10px 0;
+
+  margin: auto;
+}
 
 
-  background-color: rgb(147, 147, 229);
-
+.somelinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
