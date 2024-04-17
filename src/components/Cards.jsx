@@ -1,5 +1,20 @@
 import placeholderImg from '../assets/noimg.png'
 
+
+export default function Card({ title, image, alt, underTitle, paragraph }) {
+    return (
+      <div className="card">
+        <h3>{title}</h3>
+        <img src={image} alt={alt} />
+        <h5>{underTitle}</h5>
+        <p>{paragraph}</p>
+      </div>
+    );
+  }
+
+
+
+/**** 
 export default function Cards() {
 
     return(
@@ -33,3 +48,4 @@ export default function Cards() {
         </>
     )
 }
+****/
