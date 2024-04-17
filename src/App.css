@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.centerTekst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
 nav{
   background-color: #B9C186;
   height: 15dvh;
@@ -81,6 +88,9 @@ nav{
   transform: rotate(180deg);
 }
 
+
+/******** CARDS CSS *****/
+
 .allcards {
   display: flex;
   justify-content: space-around;
@@ -93,6 +103,8 @@ nav{
 }
 
 .card {
+  width: 30%;
+
   background-color: #B9C186;
   color: #412F26;
 
@@ -101,13 +113,20 @@ nav{
   align-items: center;
   flex-direction: column;
   
+  
   padding: 10px;
   border-radius: 25px;
+}
+
+.card p, h5 {
+  padding: 10px 0;
 }
 
 .card img {
   border-radius: 25px;
 }
+
+/****** FOOTER CSS *****/
 
 .footer {
   display: flex;
@@ -116,8 +135,7 @@ nav{
   background-color: #6A6F4C;
   color: #CBB89D;
   padding: 10px 0;
-
-  margin: auto;
+  margin-top: 30px;
 }
 
 

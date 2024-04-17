@@ -6,7 +6,6 @@ import Products from './pages/Products'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Sidehoved from './components/Sidehoved'
-import Cards from './components/Cards'
 import Footer from './components/Footer'
 
 function App() {
