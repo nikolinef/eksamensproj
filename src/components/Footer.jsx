@@ -1,29 +1,40 @@
-export default function Footer() {
+import React from 'react';
+import logoImg from '../assets/noimg.png';
+import instagramLogo from '../assets/instagram.png';
+import facebookLogo from '../assets/facebook.png';
+import linkedinLogo from '../assets/linkedin.png';
 
-    return(
-        <>
+export default function Footer() {
+    return (
         <div className="footer">
             <div className="footerkontakt">
-                <ul><h4>Kontakt info</h4>
-                <li>Adresse</li>
-                <li>Adresse</li>
-                <li>Adresse</li>
-                <br />
-                <li>Tlf.: 00 00 00 00</li>
-                <li>E-mail: info@evergreen.dk</li>
-                <li>CVR.: 12 34 56 78</li>
+                <ul>
+                    <h4>Kontakt info</h4>
+                    <li>Adresse:</li>
+                    <li>Ringvej syd 104</li>
+                    <li>8260 Viby J</li>
+                    <br />
+                    <li>Tlf.: 00 00 00 00</li>
+                    <li>E-mail: info@evergreen.dk</li>
+                    <li>CVR.: 12 34 56 78</li>
                 </ul>
-
             </div>
 
-            <div className="footerlogo"></div>
+            <div className="footerlogo">
+                <img src={logoImg} alt="Logo" />
+            </div>
 
             <div className="somelinks">
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">LinkedIn</a>
+                <a href="#">
+                    <img src={instagramLogo} alt="Instagram" />
+                </a>
+                <a href="#">
+                    <img src={facebookLogo} alt="Facebook" />
+                </a>
+                <a href="#">
+                     <img src={linkedinLogo} alt="LinkedIn" />
+                </a>
             </div>
         </div>
-        </>
-    )
+    );
 }
