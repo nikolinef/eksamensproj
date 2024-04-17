@@ -1,13 +1,13 @@
 import React from "react";
-import folderpil from "../assets/folderpilned.svg"
-import Beandafter from "./beandafter";
+import folderpil from "../assets/folderpilned.svg";
+import Beandafter from "./Beandafter";
 
 function Folder({title, folderdescrib}){
 return (
-    <>
-        <div className="folderheading">
+    <div className="onefolder">
+        <div className="folderheadline">
             <h2>{title}</h2>
-            <img src={folderpil} alt="Pil" />
+            <img src={folderpil} className="folderarrow" alt="Pil" />
         </div>
         <div className="foldercontent">
             <p>{folderdescrib}</p>
@@ -15,7 +15,7 @@ return (
             <Beandafter
             />
         </div>
-    </>
+    </div>
 
 
 )
