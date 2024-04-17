@@ -3,6 +3,38 @@
   padding: 0;
 }
 
+nav{
+  background-color: #B9C186;
+  height: 15dvh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5dvw;
+}
+
+.headerlogo{
+  background-color: #412F26;
+  width: 5dvw;
+  height: 10dvh;
+  font-size: larger;
+}
+
+.menu{
+  display: flex;
+  width: 35dvw;
+  justify-content: space-between;
+}
+
+.NavLink{
+  color: #412F26;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.NavLink:hover{
+  text-decoration: underline;
+}
+
 .allcards {
   display: flex;
   justify-content: space-around;
