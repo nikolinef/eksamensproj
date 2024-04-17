@@ -145,3 +145,46 @@ nav{
   align-items: center;
   flex-direction: column;
 }
+
+
+/***** KNAPPER ***/
+
+.leasbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 10%;
+  padding: 5px 0;
+  border-radius: 25px;
+  background-color: #CBB89D;
+  
+}
+
+.leasbtn a {
+  text-decoration: none;
+  color: #412F26;
+  font-weight: bold;
+}
+
+.Bookbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 10%;
+  padding: 5px 0;
+  border-radius: 25px;
+  background-color: #CBB89D;
+  
+}
+
+.Bookbtn a {
+  text-decoration: none;
+  color: #412F26;
+  font-weight: bold;
+}

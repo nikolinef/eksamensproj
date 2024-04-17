@@ -1,6 +1,7 @@
 import Folders from "../components/Folders";
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
+import Leasbtn from "../components/Leasbtn";
 
 export default function Products() {
 
