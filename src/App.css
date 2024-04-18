@@ -3,12 +3,30 @@
   padding: 0;
 }
 
+
+/***** CENTER TEKST ****/
 .centerTekst {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 20px 0;
+  height: 300px;
+  margin: auto;
+
+  background-color: #6A6F4C;
 }
+
+.centerTekst h1, p {
+  padding-bottom: 2%;
+  text-align: center;
+  width: 60%;
+}
+
+
+
+
+/****** NAVBAR *******/
 
 nav{
   background-color: #B9C186;
