@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.underOverskrift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 5% 0 2% 0;
+}
 
 /***** CENTER TEKST ****/
 .centerTekst {
@@ -11,7 +19,6 @@
   align-items: center;
   flex-direction: column;
   padding: 20px 0;
-  height: 300px;
   margin: auto;
 
   background-color: #6A6F4C;
