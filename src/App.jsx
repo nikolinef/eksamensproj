@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Sidehoved from './components/Sidehoved'
 import Footer from './components/Footer'
+import Memberpage from './pages/Memberpage'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/products" element={<Products/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/memberpage" element={<Memberpage/>}/>
         <Route path="*" element={<Navigate to="/"/>}/>
       </Routes>
       
