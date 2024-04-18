@@ -1,4 +1,7 @@
-export default function Centertekst({ overskrift, brodtekst }) {
+
+import Leasbtn from "./Leasbtn";
+
+export default function CentertekstBtn({ overskrift, brodtekst }) {
     return (
         <div className="centerTekst">
             <h1>{overskrift}</h1>
