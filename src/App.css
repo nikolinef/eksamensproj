@@ -98,7 +98,7 @@ nav{
   justify-content: space-between;
 }
 
-.onefolder{
+.onefolder{ /*yderste kasse af folders*/
   display: flex;
   flex-direction: column;
   padding: 5dvh 10dvw 2dvh 10dvw;
@@ -116,7 +116,7 @@ nav{
 }
 
 .foldercontent{
-  /*max-height: 7dvh; content showing når folder lukket*/
+  max-height: 7dvh; /*content showing når folder lukket*/
   overflow: hidden;
   transition: max-height 1.4s ease;
 }
@@ -126,11 +126,11 @@ nav{
   text-align: left;
 }
 
-.folders.active .foldercontent{
-  max-width: 350px;
+.onefolder.active .foldercontent{
+  max-height: 100dvh;
 }
 
-.folders.active .folderarrow{
+.onefolder.active .folderarrow{
   transform: rotate(180deg);
 }
 

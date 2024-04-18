@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import folderarrow from "../assets/folderpilned.svg";
@@ -7,6 +8,26 @@ import Beforeandafter from "../components/Beforeandafter";
 import Centertekst from "../components/Centertekst";
 
 export default function Products() {
+
+  useEffect(() => {
+    const accordions = document.querySelectorAll(".onefolder");
+
+    accordions.forEach(accordion => {
+        accordion.addEventListener("click", () => {
+            accordion.classList.toggle("active");
+        });
+    });
+
+    // Clean up event listeners when component unmounts
+    return () => {
+        accordions.forEach(accordion => {
+            accordion.removeEventListener("click", () => {
+                accordion.classList.toggle("active");
+            });
+        });
+    };
+
+}, []); // Empty dependency array ensures the effect runs only once after initial render
 
     return (
         <>
