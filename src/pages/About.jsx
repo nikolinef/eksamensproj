@@ -1,32 +1,9 @@
-import { useEffect } from 'react';
-import noImg from "../assets/noimg.png";
 import folderarrow from "../assets/folderpilned.svg";
 import Stortlogo from "../components/Stortlogo";
 import Centertekst from "../components/Centertekst";
 import Folderdescribtion from "../components/Folderdescribtion";
-import Beforeandafter from "../components/Beforeandafter";
 
 export default function About() {
-
-    useEffect(() => {
-        const accordions = document.querySelectorAll(".onefolder");
-    
-        accordions.forEach(accordion => {
-            accordion.addEventListener("click", () => {
-                accordion.classList.toggle("active");
-            });
-        });
-    
-        // Clean up event listeners when component unmounts
-        return () => {
-            accordions.forEach(accordion => {
-                accordion.removeEventListener("click", () => {
-                    accordion.classList.toggle("active");
-                });
-            });
-        };
-    
-    }, []); // Empty dependency array ensures the effect runs only once after initial render
 
     return (
         <>
@@ -76,17 +53,6 @@ export default function About() {
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
             />
-            <h3>Knap</h3>
-            <Beforeandafter
-            image1={noImg}
-            alt1="Example alt"
-            lagringspladspre="14,07 GB"
-            kgwattpre="105 kg/watt"
-            image2={noImg}
-            alt2="Example alt2"
-            lagringspladspost="504 KB"
-            kgwattpost="20 kg/watt"
-            />
           </div>
         </div>
 
@@ -105,16 +71,6 @@ export default function About() {
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
             />
             <h3>Knap</h3>
-            <Beforeandafter
-            image1={noImg}
-            alt1="Example alt"
-            lagringspladspre="17,07 GB"
-            kgwattpre="150 kg/watt"
-            image2={noImg}
-            alt2="Example alt2"
-            lagringspladspost="378 KB"
-            kgwattpost="17 kg/watt"
-            />
           </div>
         </div>
 
@@ -131,17 +87,6 @@ export default function About() {
             Proin nibh nisl condimentum id venenatis. Elementum tempus egestas sed sed risus pretium quam vulputate. 
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
-            />
-            <h3>Knap</h3>
-            <Beforeandafter
-            image1={noImg}
-            alt1="Example alt"
-            lagringspladspre="20,56 GB"
-            kgwattpre="289 kg/watt"
-            image2={noImg}
-            alt2="Example alt2"
-            lagringspladspost="482 KB"
-            kgwattpost="10 kg/watt"
             />
           </div>
         </div>
@@ -160,17 +105,6 @@ export default function About() {
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
             />
-            <h3>Knap</h3>
-            <Beforeandafter
-            image1={noImg}
-            alt1="Example alt"
-            lagringspladspre="14,07 GB"
-            kgwattpre="105 kg/watt"
-            image2={noImg}
-            alt2="Example alt2"
-            lagringspladspost="504 KB"
-            kgwattpost="20 kg/watt"
-            />
           </div>
         </div>
 
@@ -188,17 +122,6 @@ export default function About() {
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
             />
-            <h3>Knap</h3>
-            <Beforeandafter
-            image1={noImg}
-            alt1="Example alt"
-            lagringspladspre="17,07 GB"
-            kgwattpre="150 kg/watt"
-            image2={noImg}
-            alt2="Example alt2"
-            lagringspladspost="378 KB"
-            kgwattpost="17 kg/watt"
-            />
           </div>
         </div>
 
@@ -215,17 +138,6 @@ export default function About() {
             Proin nibh nisl condimentum id venenatis. Elementum tempus egestas sed sed risus pretium quam vulputate. 
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
-            />
-            <h3>Knap</h3>
-            <Beforeandafter
-            image1={noImg}
-            alt1="Example alt"
-            lagringspladspre="20,56 GB"
-            kgwattpre="289 kg/watt"
-            image2={noImg}
-            alt2="Example alt2"
-            lagringspladspost="482 KB"
-            kgwattpost="10 kg/watt"
             />
           </div>
         </div>
