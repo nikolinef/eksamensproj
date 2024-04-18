@@ -63,10 +63,13 @@ nav{
 }
 
 .headerlogo{
-  background-color: #412F26;
-  width: 5dvw;
   height: 10dvh;
-  font-size: larger;
+  display: flex;
+  align-items: center;
+}
+
+.headerimg{
+  height: 100%;
 }
 
 .menu{
@@ -76,9 +79,9 @@ nav{
 }
 
 .NavLink{
+  font-size: larger;
   color: #412F26;
   text-decoration: none;
-  font-size: larger;
 }
 
 .NavLink:hover{
