@@ -7,7 +7,6 @@ export default function Products() {
 
     return (
         <>
-        <Folders/>
     
     <h3 className="centerTekst">Example Component</h3>
     <div className="allcards">
