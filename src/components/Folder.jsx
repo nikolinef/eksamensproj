@@ -11,7 +11,7 @@ return (
                 <img src={folderpil} className="folderarrow" alt="Pil" />
             </div>
             <div className="foldercontent">
-                <p>I denne pakke går vi ind og reducerer storage af billeder og video. Dvs. vi komprimere alle filstørrelserne, så de fylder væsentlig mindre, men stadig bevære kvaliteten. Derudover kan vi også lave en test på billedernes nødvendighed, så vi sikre, at i kun har nødvendige billeder på jeres side</p>
+                <p>I denne pakke går og vi ind og reducerer storage af billeder og video. Dvs. vi komprimere alle filstørrelserne, så de fylder væsentlig mindre, men stadig bevære kvaliteten. Derudover kan vi også lave en test på billedernes nødvendighed, så vi sikre, at i kun har nødvendige billeder på jeres side</p>
                 <h3>Knap</h3>
                 <Beandafter
                 />
