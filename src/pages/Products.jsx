@@ -31,6 +31,9 @@ export default function Products() {
 
     return (
         <>
+        <Centertekst overskrift="Pakker vi tilbyder" brodtekst="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+
+
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
           <div className="folderheadline">
             <h2>Pakke 1 - Billedeoptimering</h2>
