@@ -4,12 +4,12 @@ import folderarrow from "../assets/folderpilned.svg";
 import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
 import Beforeandafter from "../components/Beforeandafter";
+import Centertekst from "../components/Centertekst";
 
 export default function Products() {
 
     return (
         <>
-        <h1>Pakker vi tilbyder</h1>
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
           <div className="folderheadline">
             <h2>Pakke 1 - Billedeoptimering</h2>
