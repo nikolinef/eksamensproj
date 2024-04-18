@@ -2,6 +2,7 @@ import Centertekst from "../components/Centertekst"
 import Leasbtn from "../components/Leasbtn"
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
+import Funfact from "../components/Funfact";
 
 
 
@@ -14,6 +15,18 @@ export default function Homepage() {
 
         <Centertekst overskrift="Hvem er Evergreen" brodtekst="Introduction om hvem vi er og hvad vi står for, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
+        <Leasbtn link="/about">Læs mere</Leasbtn>
+
+        <Funfact
+        overskrift="Fun Fact 1"
+        brodtekst="Some paragraph text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <Leasbtn link="/about">Læs mere</Leasbtn>
+
+        <Funfact
+        overskrift="Fun Fact 2"
+        brodtekst="Some paragraph text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
         <Leasbtn link="/about">Læs mere</Leasbtn>
 
 

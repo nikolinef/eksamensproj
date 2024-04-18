@@ -213,3 +213,14 @@ nav{
   color: #412F26;
   font-weight: bold;
 }
+
+
+/***** FUN FACTS *****/
+
+.funfact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4% 0 0 0;
+}
