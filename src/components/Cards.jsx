@@ -1,7 +1,7 @@
 import placeholderImg from '../assets/noimg.png'
 
 
-export default function Card({ title, image, alt, underTitle, paragraph }) {
+export default function Cards({ title, image, alt, underTitle, paragraph }) {
     return (
       <div className="card">
         <h3>{title}</h3>
