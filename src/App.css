@@ -31,6 +31,24 @@
 }
 
 
+/****** VENSTRE TEKST *****/
+
+.leftTekst {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left along the main axis */
+  align-items: flex-start; /* Align items to the top along the cross axis */
+  text-align: left;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  background-color: #CBB89D;
+}
+
+.leftTekst h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 
 
 /****** NAVBAR *******/
