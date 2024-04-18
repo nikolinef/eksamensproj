@@ -1,9 +1,11 @@
+import Folderdescribtion from "../components/Folderdescribtion";
+import folderarrow from "../assets/folderpilned.svg";
+
 export default function Memberpage() {
 
     return (
         <>
-        <Centertekst overskrift="Kontakt Evergreen" brodtekst="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
-
+        <h1 style={{textAlign: "center"}} >Status</h1>
 
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
           <div className="folderheadline">
