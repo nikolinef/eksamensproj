@@ -1,12 +1,12 @@
 import React from "react";
 
-function Beforeandafter({lagringspladspre, kgwattpre, lagringspladspost, kgwattpost}) {
+function Beforeandafter({lagringspladspre, kgwattpre, lagringspladspost, kgwattpost, image1, alt1, image2, alt2 }) {
     return(
         <>
         <div className="twocolums">
             <div className="baacolum">
                 <h3>Før</h3>
-                <img src={image} alt={alt} />
+                <img src={image1} alt={alt1} />
                 <p>Lagringsplads: {lagringspladspre}
                 <br />
                 Energi i kg/watt: {kgwattpre}</p>
@@ -14,7 +14,7 @@ function Beforeandafter({lagringspladspre, kgwattpre, lagringspladspost, kgwattp
 
             <div className="baacolum">
                 <h3>Efter</h3>
-                <img src={image} alt={alt} />
+                <img src={image2} alt={alt2} />
                 <p>Lagringsplads: {lagringspladspost}
                 <br />
                 Energi i kg/watt: {kgwattpost}</p>

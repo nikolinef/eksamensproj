@@ -4,7 +4,6 @@ function Folderdescribtion({fdescribtion}) {
     return(
         <>
         <p>{fdescribtion}</p>
-
         </>
 
     );

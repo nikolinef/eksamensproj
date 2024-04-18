@@ -1,5 +1,6 @@
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
+import folderarrow from "../assets/folderpilned.svg";
 import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
 import Beforeandafter from "../components/Beforeandafter";
@@ -8,9 +9,11 @@ export default function Products() {
 
     return (
         <>
+        <h1>Pakker vi tilbyder</h1>
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
-          <div className="folderhealine">
+          <div className="folderheadline">
             <h2>Pakke 1 - Billedeoptimering</h2>
+            <img src={folderarrow} alt="Pil" className="folderarrow" />
           </div>
 
           <div className="foldercontent">
@@ -23,8 +26,12 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
+            image1={noImg}
+            alt1="Example alt"
             lagringspladspre="14,07 GB"
             kgwattpre="105 kg/watt"
+            image2={noImg}
+            alt2="Example alt2"
             lagringspladspost="504 KB"
             kgwattpost="20 kg/watt"
             />
@@ -32,8 +39,9 @@ export default function Products() {
         </div>
 
         <div className="onefolder" style={{backgroundColor: "#6A6F4C", color: "#EDE1D2"}}>
-          <div className="folderhealine">
+          <div className="folderheadline">
             <h2>Pakke 2 - Designoptimering</h2>
+            <img src={folderarrow} alt="Pil" className="folderarrow" />
           </div>
 
           <div className="foldercontent">
@@ -46,8 +54,12 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
+            image1={noImg}
+            alt1="Example alt"
             lagringspladspre="17,07 GB"
             kgwattpre="150 kg/watt"
+            image2={noImg}
+            alt2="Example alt2"
             lagringspladspost="378 KB"
             kgwattpost="17 kg/watt"
             />
@@ -55,8 +67,9 @@ export default function Products() {
         </div>
 
         <div className="onefolder" style={{backgroundColor: "#806044", color: "#EDE1D2"}}>
-          <div className="folderhealine">
+          <div className="folderheadline">
             <h2>Pakke 3 - Rebranding</h2>
+            <img src={folderarrow} alt="Pil" className="folderarrow" />
           </div>
 
           <div className="foldercontent">
@@ -69,8 +82,12 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
+            image1={noImg}
+            alt1="Example alt"
             lagringspladspre="20,56 GB"
             kgwattpre="289 kg/watt"
+            image2={noImg}
+            alt2="Example alt2"
             lagringspladspost="482 KB"
             kgwattpost="10 kg/watt"
             />

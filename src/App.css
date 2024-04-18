@@ -121,6 +121,7 @@ nav{
 
 .foldercontent p{
   padding-top: 2dvh;
+  text-align: left;
 }
 
 .folders.active .foldercontent{
