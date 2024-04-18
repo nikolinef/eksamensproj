@@ -89,10 +89,13 @@ nav{
 .baacolum{
   display: flex;
   flex-direction: column;
+  width: 35%;
 }
 
 .twocolums{
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .onefolder{
@@ -113,7 +116,7 @@ nav{
 }
 
 .foldercontent{
-  max-height: 7dvh; /*content showing når folder lukket*/
+  /*max-height: 7dvh; content showing når folder lukket*/
   overflow: hidden;
   transition: max-height 1.4s ease;
 }
