@@ -11,9 +11,9 @@ export default function Homepage() {
 
     return (
         <>
-        <Centertekst overskrift="Velkommen til Evergreen" brodtekst="Lille velkomst tekst, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+        <Centertekst overskrift="Velkommen til Evergreen" brodtekst="Vi er eksperter i webdesign med fokus på at skabe miljøvenlige hjemmesider, der reducerer CO2-udledningen. Lad os sammen bygge digitale løsninger, der gavner både din virksomhed og vores planet!" />
 
-        <Centertekst overskrift="Hvem er Evergreen" brodtekst="Introduction om hvem vi er og hvad vi står for, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+        <Centertekst overskrift="Hvem er Evergreen" brodtekst="Evergreen forener æstetik med bæredygtighed. Vi skaber fængende webgrafiske løsninger, der oplyser om bæredygtighedens vigtighed. Vores mission er at minimere CO2-aftrykket ved at udvikle brugervenlige og visuelt appellerende webløsninger. Vi tror på ærlighed og gennemsigtighed og viser, at bæredygtige webdesigns kan være både smukke og effektive." />
 
         <Leasbtn link="/about">Læs mere</Leasbtn>
 
