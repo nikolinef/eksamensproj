@@ -1,6 +1,8 @@
 import Centertekst from '../components/Centertekst';
 import Folderdescribtion from "../components/Folderdescribtion";
 import folderarrow from "../assets/folderpilned.svg";
+import Vejledningstid from '../components/Vejledningstid';
+import Costumerrequest from '../components/Costumerrequest';
 
 export default function Contact() {
 
@@ -23,6 +25,7 @@ export default function Contact() {
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
             />
+            <Costumerrequest />
           </div>
         </div>
 
@@ -40,6 +43,8 @@ export default function Contact() {
             
             Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
             />
+            <Vejledningstid />
+
           </div>
         </div>
 
