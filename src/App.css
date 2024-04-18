@@ -224,3 +224,18 @@ nav{
   flex-direction: column;
   margin: 4% 0 0 0;
 }
+
+
+/****** STORT LOGO ****/
+
+.stortLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /
+}
+
+.stortLogo img {
+  max-width: 100%; 
+  max-height: 100%; 
+}
