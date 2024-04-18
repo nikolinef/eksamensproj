@@ -1,5 +1,5 @@
 import Centertekst from "../components/Centertekst"
-import Leasbtn from "../components/Leasbtn"
+import Leasbtn from "../components/Leasbtn";
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import Funfact from "../components/Funfact";

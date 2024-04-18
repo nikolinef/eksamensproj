@@ -1,12 +1,15 @@
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import Leasbtn from "../components/Leasbtn";
+import Centertekst from '../components/Centertekst';
 
 export default function Products() {
 
     return (
         <>
-    
+    <Centertekst overskrift="Produkter vi tilbyder" brodtekst="Introduction om hvem vi er og hvad vi står for, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+
+
     <h3 className="centerTekst">Example Component</h3>
     <div className="allcards">
       <Card
