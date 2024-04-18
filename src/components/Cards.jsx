@@ -1,5 +1,3 @@
-import placeholderImg from '../assets/noimg.png'
-
 
 export default function Cards({ title, image, alt, underTitle, paragraph }) {
     return (

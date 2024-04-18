@@ -1,7 +1,7 @@
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import Leasbtn from "../components/Leasbtn";
-import Pinefolder from "../components/Folderdescribtion";
+import Pinefolder from "../components/Pinefolder";
 
 export default function Products() {
 
