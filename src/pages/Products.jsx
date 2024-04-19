@@ -86,11 +86,11 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
-            image1={foereksempel2}
+            image1={foereksempel3}
             alt1="Example alt"
             lagringspladspre="17,07 GB"
             kgwattpre="150 kg/watt"
-            image2={eftereksempel2}
+            image2={eftereksempel3}
             alt2="Example alt2"
             lagringspladspost="378 KB"
             kgwattpost="17 kg/watt"
@@ -114,11 +114,11 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
-            image1={foereksempel3}
+            image1={foereksempel2}
             alt1="Example alt"
             lagringspladspre="20,56 GB"
             kgwattpre="289 kg/watt"
-            image2={eftereksempel3}
+            image2={eftereksempel2}
             alt2="Example alt2"
             lagringspladspost="482 KB"
             kgwattpost="10 kg/watt"

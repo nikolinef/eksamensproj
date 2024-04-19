@@ -99,12 +99,14 @@ nav{
   display: flex;
   width: 35dvw;
   justify-content: space-between;
+
 }
 
 .NavLink{
   font-size: larger;
   color: #412F26;
   text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .NavLink:hover{
