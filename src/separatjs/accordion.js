@@ -5,19 +5,27 @@ export const useAccordionLogic = () => {
   useEffect(() => {
     const accordions = document.querySelectorAll(".onefolder");
 
-    accordions.forEach(accordion => {
-      accordion.addEventListener("click", () => {
-        accordion.classList.toggle("active");
-      });
-    });
-
-    // Clean up event listeners when component unmounts
-    return () => {
-      accordions.forEach(accordion => {
-        accordion.removeEventListener("click", () => {
-          accordion.classList.toggle("active");
-        });
+    const observerCallback = (mutationsList, observer) => {
+      mutationsList.forEach(mutation => {
+        if (mutation.type === 'childList') {
+          mutation.addedNodes.forEach(node => {
+            if (node.classList && node.classList.contains('onefolder')) {
+              node.addEventListener("click", () => {
+                node.classList.toggle("active");
+              });
+            }
+          });
+        }
       });
     };
+
+    const observer = new MutationObserver(observerCallback);
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    // Clean up observer when component unmounts
+    return () => {
+      observer.disconnect();
+    };
+
   }, []);
 };
