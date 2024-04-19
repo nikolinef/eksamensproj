@@ -5,27 +5,20 @@ export const useAccordionLogic = () => {
   useEffect(() => {
     const accordions = document.querySelectorAll(".onefolder");
 
-    const observerCallback = (mutationsList, observer) => {
-      mutationsList.forEach(mutation => {
-        if (mutation.type === 'childList') {
-          mutation.addedNodes.forEach(node => {
-            if (node.classList && node.classList.contains('onefolder')) {
-              node.addEventListener("click", () => {
-                node.classList.toggle("active");
-              });
-            }
-          });
-        }
-      });
-    };
+    accordions.forEach(accordion => {
+        accordion.addEventListener("click", () => {
+            accordion.classList.toggle("active");
+        });
+    });
 
-    const observer = new MutationObserver(observerCallback);
-    observer.observe(document.body, { childList: true, subtree: true });
-
-    // Clean up observer when component unmounts
+    // Clean up event listeners when component unmounts
     return () => {
-      observer.disconnect();
+        accordions.forEach(accordion => {
+            accordion.removeEventListener("click", () => {
+                accordion.classList.toggle("active");
+            });
+        });
     };
 
-  }, []);
+}, []); // Empty dependency array ensures the effect runs only once after initial render
 };
