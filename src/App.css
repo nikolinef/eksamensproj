@@ -263,3 +263,36 @@ nav{
   max-width: 100%; 
   max-height: 100%; 
 }
+
+
+/****** CAROUSEL *****/
+.carousel-section {
+  position: relative; 
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-container {
+  position: relative; 
+}
+
+.img-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#venstrepil, #højrepil {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#venstrepil {
+  left: 0;
+}
+
+#højrepil {
+  right: 0;
+}

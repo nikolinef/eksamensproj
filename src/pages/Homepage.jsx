@@ -3,6 +3,7 @@ import Leasbtn from "../components/Leasbtn";
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import Funfact from "../components/Funfact";
+import Carousel from "../components/Carousel";
 
 
 
@@ -79,6 +80,8 @@ export default function Homepage() {
             paragraph="This is an example paragraph."
         />
         </div> 
+
+        <Carousel />
         
         </>
     )
