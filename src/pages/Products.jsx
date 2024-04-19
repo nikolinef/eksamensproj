@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
+import foereksempel1 from "../assets/foereksempel1-min.png";
 import folderarrow from "../assets/folderpilned.svg";
 import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
@@ -53,11 +54,11 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
-            image1={noImg}
+            image1={foereksempel1}
             alt1="Example alt"
             lagringspladspre="14,07 GB"
             kgwattpre="105 kg/watt"
-            image2={noImg}
+            image2={foereksempel1}
             alt2="Example alt2"
             lagringspladspost="504 KB"
             kgwattpost="20 kg/watt"
