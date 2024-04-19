@@ -31,6 +31,9 @@ export default function Products() {
 
     return (
         <>
+    <div className="baggrund">
+
+
         <Centertekst overskrift="Pakker vi tilbyder" brodtekst="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 
 
@@ -143,6 +146,8 @@ export default function Products() {
       />
 
     </div>
+
+  </div>
 
         </>
     )

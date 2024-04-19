@@ -25,13 +25,13 @@ export default function Footer() {
             </div>
 
             <div className="somelinks">
-                <a href="#">
+                <a href="https://www.instagram.com/">
                     <img src={instagramLogo} alt="Instagram" />
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/?locale=da_DK">
                     <img src={facebookLogo} alt="Facebook" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/home">
                      <img src={linkedinLogo} alt="LinkedIn" />
                 </a>
             </div>

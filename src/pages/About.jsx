@@ -7,8 +7,10 @@ export default function About() {
 
     return (
         <>
+        <div className="baggrund">
+
         <Stortlogo />
-        
+
         <div className="leftTekst">
             <h2 className="leftTekst">Hvem er Evergreen</h2>
             <p className="leftTekst">
@@ -21,7 +23,8 @@ export default function About() {
                 Evergreens formål er at være et bevis på, at bæredygtige webdesigns kan være lige så smukke og effektive som konventionelle løsninger. Hos os er bæredygtighed en æstetisk og funktionel fordel, ikke en hindring.
                 </p>
         </div>
-
+      
+      <br /><br />
 
         <div className="leftTekst">
             <h2 className="leftTekst">Hvad er bæredygtigt webdesign? og hvorfor er det vigtigt</h2>
@@ -142,6 +145,9 @@ export default function About() {
           </div>
         </div>
 
+
+
+      </div>
         </>
     )
 }

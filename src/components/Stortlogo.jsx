@@ -1,12 +1,12 @@
 
 import React from 'react';
-import noimg from '../assets/noimg.png'; 
+import Logoimg from '../assets/SWDlogo.svg'; 
 
 export default function Stortlogo() {
   return (
     <>
       <div className="stortLogo">
-        <img src={noimg} alt="Placeholder" />
+        <img src={Logoimg} alt="Evergreen logo" />
       </div>
     </>
   );

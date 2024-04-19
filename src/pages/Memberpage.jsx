@@ -5,6 +5,8 @@ export default function Memberpage() {
 
     return (
         <>
+<div className="baggrund">
+
         <h1 style={{textAlign: "center"}} >Status</h1>
 
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
@@ -58,6 +60,8 @@ export default function Memberpage() {
           </div>
         </div>
 
+
+      </div>
         </>
     )
 }
