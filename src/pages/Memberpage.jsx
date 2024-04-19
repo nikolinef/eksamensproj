@@ -7,7 +7,7 @@ export default function Memberpage() {
         <>
 <div className="baggrund">
 
-        <h1 style={{textAlign: "center"}} >Status</h1>
+        <h1 className="overskrift">Status</h1>
 
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
           <div className="folderheadline">
