@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import Pil from '../assets/folderpilned.svg';
-import noImg from '../assets/noimg.png'; // Make sure to add the file extension
+import One from '../assets/1.png';
+import Two from '../assets/2.png';
+import Three from '../assets/3.png';
 
 export default function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    noImg,
-    "billeder/midterbilledekarusel.jpg",
-    "billeder/sidstebilledekarussel.jpg"
+    One,
+    Two,
+    Three,
   ];
 
   const nextSlide = () => {

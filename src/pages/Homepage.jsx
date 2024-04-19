@@ -11,15 +11,21 @@ import Carousel from "../components/Carousel";
 export default function Homepage() {
 
     return (
+        
         <>
-        <Centertekst overskrift="Velkommen til Evergreen" brodtekst="Vi er eksperter i webdesign med fokus på at skabe miljøvenlige hjemmesider, der reducerer CO2-udledningen. Lad os sammen bygge digitale løsninger, der gavner både din virksomhed og vores planet!" />
+
+        <div className="baggrund">
+
+        <div className="velkomst">
+            <Centertekst overskrift="Velkommen til Evergreen" brodtekst="Vi er eksperter i webdesign med fokus på at skabe miljøvenlige hjemmesider, der reducerer CO2-udledningen. Lad os sammen bygge digitale løsninger, der gavner både din virksomhed og vores planet!" />
+        </div>
 
         <Centertekst overskrift="Hvem er Evergreen" brodtekst="Evergreen forener æstetik med bæredygtighed. Vi skaber fængende webgrafiske løsninger, der oplyser om bæredygtighedens vigtighed. Vores mission er at minimere CO2-aftrykket ved at udvikle brugervenlige og visuelt appellerende webløsninger. Vi tror på ærlighed og gennemsigtighed og viser, at bæredygtige webdesigns kan være både smukke og effektive." />
 
         <Leasbtn link="/about">Læs mere</Leasbtn>
 
 
-        <h3 className="underOverskrift">Vores pakker</h3>
+        <h2 className="underOverskrift">Vores pakker</h2>
         <div className="allcards">
             <Card
             title="Pakke 1"
@@ -56,33 +62,11 @@ export default function Homepage() {
         />
         <Leasbtn link="/about">Læs mere</Leasbtn>
 
-        <h3 className="underOverskrift">Vores tidliger kunder</h3>
-        <div className="allcards">
-            <Card
-            title="Kunde 1"
-            image={noImg} // Use noImg as the image prop
-            alt="Example Image"
-            underTitle="Billedeoptimering"
-            paragraph="Tester tester tester."
-        />
-            <Card
-            title="Kunde 2"
-            image={noImg}
-            alt="Example Image"
-            underTitle="Designoptimering"
-            paragraph="This is an example paragraph."
-        />
-            <Card
-            title="Kunde 3"
-            image={noImg}
-            alt="Example Image"
-            underTitle="Rebranding"
-            paragraph="This is an example paragraph."
-        />
-        </div> 
+        <h2 className="underOverskrift">Vores tidliger kunder</h2>
 
         <Carousel />
         
+        </div>
         </>
     )
 }
