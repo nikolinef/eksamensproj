@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import foereksempel1 from "../assets/foereksempel1-min.png";
@@ -11,29 +10,11 @@ import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
 import Beforeandafter from "../components/Beforeandafter";
 import Centertekst from "../components/Centertekst";
+import { useAccordionLogic } from '../separatjs/accordion';
 
 export default function Products() {
 
-  useEffect(() => {
-    const accordions = document.querySelectorAll(".onefolder");
-
-    accordions.forEach(accordion => {
-        accordion.addEventListener("click", () => {
-            accordion.classList.toggle("active");
-        });
-    });
-
-    // Clean up event listeners when component unmounts
-    return () => {
-        accordions.forEach(accordion => {
-            accordion.removeEventListener("click", () => {
-                accordion.classList.toggle("active");
-            });
-        });
-    };
-
-}, []); // Empty dependency array ensures the effect runs only once after initial render
-
+    useAccordionLogic();
     return (
         <>
     <div className="baggrund">
