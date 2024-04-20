@@ -10,6 +10,9 @@ import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
 import Beforeandafter from "../components/Beforeandafter";
 import Centertekst from "../components/Centertekst";
+import LilleKunde1 from "../assets/LilleKunde1.png";
+import LilleKunde2 from "../assets/LilleKunde2.png";
+import LilleKunde3 from "../assets/LilleKunde3.png";
 
 export default function Products() {
 
@@ -130,21 +133,21 @@ export default function Products() {
     <div className="allcards">
       <Card
         title="Firma Navn 1"
-        image={noImg} // Use noImg as the image prop
+        image={LilleKunde1} 
         alt="Example Image"
         underTitle="Billedeoptimering"
         paragraph="Tester tester tester."
       />
       <Card
         title="Firma Navn 2"
-        image={noImg}
+        image={LilleKunde2}
         alt="Example Image"
         underTitle="Designoptimering"
         paragraph="This is an example paragraph."
       />
       <Card
         title="Firma Navn 3"
-        image={noImg}
+        image={LilleKunde3}
         alt="Example Image"
         underTitle="Rebranding"
         paragraph="This is an example paragraph."

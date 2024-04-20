@@ -1,10 +1,11 @@
 import Centertekst from "../components/Centertekst"
 import Leasbtn from "../components/Leasbtn";
 import Card from "../components/Cards";
-import noImg from "../assets/noimg.png";
+import noImg from "../assets/noimg.png"; 
 import Funfact from "../components/Funfact";
 import Carousel from "../components/Carousel";
 import ECO from "../components/ECOgrader";
+
 
 
 
