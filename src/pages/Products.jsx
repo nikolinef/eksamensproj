@@ -1,11 +1,13 @@
 import { useEffect } from 'react';
 import Card from "../components/Cards";
-import noImg from "../assets/noimg.png";
 import folderarrow from "../assets/folderpilned.svg";
 import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
 import Beforeandafter from "../components/Beforeandafter";
 import Centertekst from "../components/Centertekst";
+import LilleKunde1 from "../assets/LilleKunde1.png";
+import LilleKunde2 from "../assets/LilleKunde2.png";
+import LilleKunde3 from "../assets/LilleKunde3.png";
 
 export default function Products() {
 

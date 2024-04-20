@@ -4,7 +4,7 @@ import Card from "../components/Cards";
 import noImg from "../assets/noimg.png";
 import Funfact from "../components/Funfact";
 import Carousel from "../components/Carousel";
-
+import ECO from "../components/ECOgrader";
 
 
 
@@ -29,7 +29,7 @@ export default function Homepage() {
         <div className="allcards">
             <Card
             title="Pakke 1"
-            image={noImg} // Use noImg as the image prop
+            image={noImg} // 300x200px
             alt="Example Image"
             underTitle="Billedeoptimering"
             paragraph="Tester tester tester."
@@ -65,8 +65,10 @@ export default function Homepage() {
         <h2 className="underOverskrift">Vores tidliger kunder</h2>
 
         <Carousel />
+
+        <ECO />
         
-        </div>
+    </div>
         </>
     )
 }

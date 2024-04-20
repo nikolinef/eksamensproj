@@ -346,3 +346,14 @@ nav{
   transform: rotate(-90deg);
   width: 8%;
 }
+
+/***** ECO GRADER ***/
+
+.Ecograder img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 5%;
+  width: 70%;
+}

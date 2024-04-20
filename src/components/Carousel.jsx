@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Pil from '../assets/folderpilned.svg';
-import One from '../assets/1.png';
-import Two from '../assets/2.png';
-import Three from '../assets/3.png';
+import One from '../assets/Kunde1.png';
+import Two from '../assets/Kunde2.png';
+import Three from '../assets/Kunde3.png';
 
 export default function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
