@@ -106,12 +106,14 @@ nav{
   display: flex;
   width: 35dvw;
   justify-content: space-between;
+
 }
 
 .NavLink{
   font-size: larger;
   color: #412F26;
   text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .NavLink:hover{
@@ -149,7 +151,7 @@ nav{
 }
 
 .foldercontent{
-  max-height: auto; /* 7dvh content showing når folder lukket*/
+  max-height: 7dvh; /*  content showing når folder lukket*/
   overflow: hidden;
   transition: max-height 1.4s ease;
 }

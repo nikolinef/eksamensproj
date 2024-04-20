@@ -13,7 +13,7 @@ export default function Sidehoved() {
         </NavLink>
 
             <div className="menu">
-                <NavLink to="/products" className="NavLink">Produkter</NavLink>
+                <NavLink to="/products" className="NavLink">Pakker</NavLink>
                 <NavLink to="/about" className="NavLink">Om Evergreen</NavLink>
                 <NavLink to="/contact" className="NavLink">Kontakt</NavLink>
                 <NavLink to="/memberpage" className="NavLink">Medarbejderlogin</NavLink>

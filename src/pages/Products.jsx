@@ -1,13 +1,15 @@
-import { useEffect } from 'react';
 import Card from "../components/Cards";
+import noImg from "../assets/noimg.png";
+import foereksempel1 from "../assets/foereksempel1-min.png";
+import foereksempel2 from "../assets/foereksempel2-min.png";
+import foereksempel3 from "../assets/foereksempel3-min.png";
+import eftereksempel2 from "../assets/eftereksempel2-min.png";
+import eftereksempel3 from "../assets/eftereksempel3-min.png";
 import folderarrow from "../assets/folderpilned.svg";
 import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
 import Beforeandafter from "../components/Beforeandafter";
 import Centertekst from "../components/Centertekst";
-import LilleKunde1 from "../assets/LilleKunde1.png";
-import LilleKunde2 from "../assets/LilleKunde2.png";
-import LilleKunde3 from "../assets/LilleKunde3.png";
 
 export default function Products() {
 
@@ -30,6 +32,7 @@ export default function Products() {
     };
 
 }, []); // Empty dependency array ensures the effect runs only once after initial render
+
 
     return (
         <>
@@ -55,11 +58,11 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
-            image1={noImg}
+            image1={foereksempel1}
             alt1="Example alt"
             lagringspladspre="14,07 GB"
             kgwattpre="105 kg/watt"
-            image2={noImg}
+            image2={foereksempel1}
             alt2="Example alt2"
             lagringspladspost="504 KB"
             kgwattpost="20 kg/watt"
@@ -83,11 +86,11 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
-            image1={noImg}
+            image1={foereksempel3}
             alt1="Example alt"
             lagringspladspre="17,07 GB"
             kgwattpre="150 kg/watt"
-            image2={noImg}
+            image2={eftereksempel3}
             alt2="Example alt2"
             lagringspladspost="378 KB"
             kgwattpost="17 kg/watt"
@@ -111,11 +114,11 @@ export default function Products() {
             />
             <h3>Knap</h3>
             <Beforeandafter
-            image1={noImg}
+            image1={foereksempel2}
             alt1="Example alt"
             lagringspladspre="20,56 GB"
             kgwattpre="289 kg/watt"
-            image2={noImg}
+            image2={eftereksempel2}
             alt2="Example alt2"
             lagringspladspost="482 KB"
             kgwattpost="10 kg/watt"
