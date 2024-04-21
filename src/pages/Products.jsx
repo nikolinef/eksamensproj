@@ -38,7 +38,7 @@ export default function Products() {
             Derfor har vi lavet en pakke, hvor vi komprimere visuelle medier og opdatere koden, samt sletter gammelt ubrugeligt kode."
             />
             <p>
-              Det får du med i pakken:
+              <h4>Det får du med i pakken:</h4>
               <li>Komprimering af billeder og videoer</li>
               <br />
               <li>Optimering af kode</li>
@@ -73,7 +73,7 @@ export default function Products() {
             Denne pakke er populær, fordi vi bevare dit brand og identitet."
             />
             <p>
-              Det får du med i pakken:
+            <h4>Det får du med i pakken:</h4>
               <li>Komprimering af billeder og videoer</li>
               <br />
               <li>Optimering af kode</li>
@@ -110,7 +110,7 @@ export default function Products() {
             Det er til virksomheder, der godt kunne bruge en rebranding i den mere miljøvenlige retning. "
             />
             <p>
-              Det får du med i pakken:
+            <h4>Det får du med i pakken:</h4>
               <li>Komprimering af billeder og videoer</li>
               <br />
               <li>Optimering af kode</li>
