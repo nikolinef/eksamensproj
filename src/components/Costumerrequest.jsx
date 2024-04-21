@@ -20,7 +20,7 @@ function Costumerrequest() {
             placeholder="E-mail"/>
 
             <label htmlFor="name">Besked:</label>
-            <input type="text" 
+            <textarea type="text" 
             name="besked"
             placeholder="Forespørgsel til mødetidspunkt, dato og evt. sted"/>
             
