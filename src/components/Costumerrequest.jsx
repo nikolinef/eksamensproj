@@ -3,7 +3,7 @@ import React from "react";
 function Costumerrequest() {
     return(
         <>
-        <div className="costumerrequest">
+        <form className="costumerrequest">
             <label htmlFor="name">Navn/firmanavn:</label>
             <br />
             <input type="text" 
@@ -30,8 +30,9 @@ function Costumerrequest() {
             <textarea type="text" 
             name="besked"
             placeholder="Forespørgsel til mødetidspunkt, dato og evt. sted" required/>
-            
-        </div>
+            <br />
+            <button type="submit" className="subBtn">Send</button>
+        </form>
         </>
     );
 }
