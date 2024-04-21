@@ -403,9 +403,12 @@ nav{
   background-color: #CBB89D;
   color: #412F26;
   border-radius: 25px;
+  border-style: none;
+  /*
   border-style: solid;
   border-width: 2px;
   border-color: #412F26;
+  */
   width: 35%;
 }
 
@@ -414,9 +417,12 @@ nav{
   background-color: #CBB89D;
   color: #412F26;
   border-radius: 25px;
+  border-style: none;
+  /*
   border-style: solid;
   border-width: 2px;
   border-color: #412F26;
+  */
   width: 60%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

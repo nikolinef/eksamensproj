@@ -47,6 +47,11 @@ export default function Contact() {
             />
             <br />
             <FAQ 
+            question="Hvad koster pakkerne?"
+            answer="Vi kan ikke sætte en fast pris på vores pakker da, da variationen af vores arbejde er meget forskellige fra kunde til kunde."
+            />
+            <br />
+            <FAQ 
             question="Hvordan kontakter jeg Evergreen uden for kontortid?"
             answer="Til vores samtaler, får du nummeret på vores hotline, hvor vil vil prøve at hjælpe med akutteproblemer."
             />
