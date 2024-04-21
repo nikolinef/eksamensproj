@@ -151,7 +151,7 @@ nav{
 }
 
 .foldercontent{
-  max-height: 7dvh; /*  content showing når folder lukket*/
+  max-height: auto; /* 7dvh content showing når folder lukket*/
   overflow: hidden;
   transition: max-height 1.4s ease;
 }
