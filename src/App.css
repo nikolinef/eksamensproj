@@ -181,6 +181,7 @@ nav{
   gap: 50px;
 
   margin: auto;
+  padding: 2% 0;
 }
 
 .card {
@@ -193,6 +194,7 @@ nav{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 500px;
   
   
   padding: 10px;
