@@ -8,28 +8,28 @@ function Costumerrequest() {
             <br />
             <input type="text" 
             name="navn"
-            placeholder="Navn/firmanavn"/>
+            placeholder="Navn/firmanavn" required/>
             <br />
             <br />
             <label htmlFor="name">Mobilnummer:</label>
             <br />
             <input type="number" 
             name="mobilnummer"
-            placeholder="Mobilnummer"/>
+            placeholder="Mobilnummer" required/>
             <br />
             <br />
             <label htmlFor="name">E-mail:</label>
             <br />
             <input type="email" 
             name="email"
-            placeholder="E-mail"/>
+            placeholder="E-mail" required/>
             <br />
             <br />
             <label htmlFor="name">Besked:</label>
             <br />
             <textarea type="text" 
             name="besked"
-            placeholder="Forespørgsel til mødetidspunkt, dato og evt. sted"/>
+            placeholder="Forespørgsel til mødetidspunkt, dato og evt. sted" required/>
             
         </div>
         </>
