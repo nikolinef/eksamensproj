@@ -156,9 +156,25 @@ nav{
   transition: max-height 1.4s ease;
 }
 
+.foldercontent li{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style-type: disc;
+}
+
 .foldercontent p{
   padding-top: 2dvh;
   text-align: left;
+}
+
+.foldercontent a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #EDE1D2;
+  text-decoration: none;
+}
+
+.foldercontent a:hover{
+  color: #412F26;
+  text-decoration: underline;
 }
 
 .onefolder.active .foldercontent{

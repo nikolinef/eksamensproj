@@ -2,6 +2,7 @@ import folderarrow from "../assets/folderpilned.svg";
 import Stortlogo from "../components/Stortlogo";
 import Centertekst from "../components/Centertekst";
 import Folderdescribtion from "../components/Folderdescribtion";
+import { Link } from "react-router-dom";
 
 export default function About() {
 
@@ -213,19 +214,28 @@ export default function About() {
           </div>
 
           <div className="foldercontent">
-            <ul>
               <li>Hvis internettet var et land, ville det udlede lige så meget CO2 som det 4. mest forurenende land.</li>
+              <br />
               <li>Internettet udleder mere CO2 end den kommercielle flytrafik.</li>
+              <br />
               <li>2 timers streaming svare til 12 km i bilen.</li>
+              <br />
               <li>EU har lavet et mål om at alle datacentre skal være CO2-neutrale i 2030.</li>
+              <br />
               <li>Hvis en bærebar computer bruges i 3 år ekstra kan det spare 3,7 mio. tons CO2 i EU.</li>
+              <br />
               <li>Hvis en iphone bruges i 1 år ekstra, kan det spare 1,2 mio. tons CO2 i EU.</li>
-            </ul>
+            
             <br />
             <br />
             <h4>Kilder:</h4>
-            
+            <a href="https://www.sustainablewebmanifesto.com/" target="_blank" rel="noopener" >https://www.sustainablewebmanifesto.com/ </a>
+            <br />
+            <a href="https://taenk.dk/forbrugerliv/baeredygtighed/saa-meget-paavirker-dit-internetforbrug-klimaet" target="_blank" rel="noopener">https://taenk.dk/forbrugerliv/baeredygtighed/saa-meget-paavirker-dit-internetforbrug-klimaet</a>
+            <br />
+            <br />
           </div>
+
         </div>
 
 
