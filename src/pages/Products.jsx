@@ -1,5 +1,4 @@
 import Card from "../components/Cards";
-import noImg from "../assets/noimg.png";
 import foereksempel1 from "../assets/foereksempel1-min.png";
 import foereksempel2 from "../assets/foereksempel2-min.png";
 import foereksempel3 from "../assets/foereksempel3-min.png";
@@ -13,6 +12,7 @@ import Centertekst from "../components/Centertekst";
 import LilleKunde1 from "../assets/LilleKunde1.png";
 import LilleKunde2 from "../assets/LilleKunde2.png";
 import LilleKunde3 from "../assets/LilleKunde3.png";
+import { useEffect } from "react";
 
 export default function Products() {
 
