@@ -1,9 +1,4 @@
 import Card from "../components/Cards";
-import foereksempel1 from "../assets/foereksempel1-min.png";
-import foereksempel2 from "../assets/foereksempel2-min.png";
-import foereksempel3 from "../assets/foereksempel3-min.png";
-import eftereksempel2 from "../assets/eftereksempel2-min.png";
-import eftereksempel3 from "../assets/eftereksempel3-min.png";
 import folderarrow from "../assets/folderpilned.svg";
 import Leasbtn from "../components/Leasbtn";
 import Folderdescribtion from "../components/Folderdescribtion";
@@ -13,6 +8,11 @@ import LilleKunde1 from "../assets/LilleKunde1.png";
 import LilleKunde2 from "../assets/LilleKunde2.png";
 import LilleKunde3 from "../assets/LilleKunde3.png";
 import Bookbtn from "../components/Bookbtn";
+import foereksempel1 from "../assets/foereksempel1-min.jpg";
+import foereksempel2 from "../assets/foereksempel2-min.jpg";
+import foereksempel3 from "../assets/foereksempel3-min.jpg";
+import eftereksempel2 from "../assets/eftereksempel2-min.jpg";
+import eftereksempel3 from "../assets/eftereksempel3-min.jpg";
 
 export default function Products() {
 
@@ -85,11 +85,11 @@ export default function Products() {
             <Bookbtn
             link="/Contact"/>
             <Beforeandafter
-            image1={foereksempel3}
+            image1={foereksempel2}
             alt1="Example alt"
             lagringspladspre="17,07 GB"
             kgwattpre="150 kg/watt"
-            image2={eftereksempel3}
+            image2={eftereksempel2}
             alt2="Example alt2"
             lagringspladspost="378 KB"
             kgwattpost="17 kg/watt"
@@ -128,11 +128,11 @@ export default function Products() {
             <Bookbtn
             link="/Contact"/>
             <Beforeandafter
-            image1={foereksempel2}
+            image1={foereksempel3}
             alt1="Example alt"
             lagringspladspre="20,56 GB"
             kgwattpre="289 kg/watt"
-            image2={eftereksempel2}
+            image2={eftereksempel3}
             alt2="Example alt2"
             lagringspladspost="482 KB"
             kgwattpost="10 kg/watt"

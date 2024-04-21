@@ -1,10 +1,12 @@
 import Centertekst from "../components/Centertekst"
 import Leasbtn from "../components/Leasbtn";
 import Card from "../components/Cards";
-import noImg from "../assets/noimg.png"; 
 import Funfact from "../components/Funfact";
 import Carousel from "../components/Carousel";
 import ECO from "../components/ECOgrader";
+import forsideeksempel1 from "../assets/forsidefoereksempel1.jpg";
+import forsideeksempel2 from "../assets/forsideeftereksempel2.jpg";
+import forsideeksempel3 from "../assets/forsideeftereksempel3.jpg";
 
 
 
@@ -30,21 +32,21 @@ export default function Homepage() {
         <div className="allcards">
             <Card
             title="Pakke 1"
-            image={noImg} // 300x200px
+            image={forsideeksempel1} // 300x200px
             alt="Example Image"
             underTitle="Billedeoptimering"
             paragraph="Tester tester tester."
         />
             <Card
             title="Pakke 2"
-            image={noImg}
+            image={forsideeksempel2}
             alt="Example Image"
             underTitle="Designoptimering"
             paragraph="This is an example paragraph."
         />
             <Card
             title="Pakke 3"
-            image={noImg}
+            image={forsideeksempel3}
             alt="Example Image"
             underTitle="Rebranding"
             paragraph="This is an example paragraph."
