@@ -12,6 +12,7 @@ import Centertekst from "../components/Centertekst";
 import LilleKunde1 from "../assets/LilleKunde1.png";
 import LilleKunde2 from "../assets/LilleKunde2.png";
 import LilleKunde3 from "../assets/LilleKunde3.png";
+import Bookbtn from "../components/Bookbtn";
 
 export default function Products() {
 
@@ -21,7 +22,8 @@ export default function Products() {
     <div className="baggrund">
 
 
-        <Centertekst overskrift="Pakker vi tilbyder" brodtekst="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+        <Centertekst overskrift="Pakker vi tilbyder" brodtekst="Herunder kan du læse, hvilke ydelser der høre med i de forskellige pakker. 
+        Husk at vejledning og rådgivning alle dage, på mail og telefon, er med i alle pakkerne. " />
 
 
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
@@ -32,13 +34,20 @@ export default function Products() {
 
           <div className="foldercontent">
             <Folderdescribtion
-            fdescribtion="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-            Proin nibh nisl condimentum id venenatis. Elementum tempus egestas sed sed risus pretium quam vulputate. 
-            
-            Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
+            fdescribtion="Hos Evergreen har vi forståelse for, at den komplette omstilling kan virke uoverskuelig. 
+            Derfor har vi lavet en pakke, hvor vi komprimere visuelle medier og opdatere koden, samt sletter gammelt ubrugeligt kode."
             />
-            <h3>Knap</h3>
+            <p>
+              Det får du med i pakken:
+              <li>Komprimering af billeder og videoer</li>
+              <br />
+              <li>Optimering af kode</li>
+              <br />
+              <li>Simpel informationsarkitektur</li>
+            </p>
+            
+            <Bookbtn
+            link="/Contact"/>
             <Beforeandafter
             image1={foereksempel1}
             alt1="Example alt"
@@ -60,13 +69,21 @@ export default function Products() {
 
           <div className="foldercontent">
             <Folderdescribtion
-            fdescribtion="Design beskrivelse Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-            Proin nibh nisl condimentum id venenatis. Elementum tempus egestas sed sed risus pretium quam vulputate. 
-            
-            Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
+            fdescribtion="Med designoptimering tilføjer vi et nyt design, der mindsker energiforbruget, samt opdater koden og komprimere visuelle medier. 
+            Denne pakke er populær, fordi vi bevare dit brand og identitet."
             />
-            <h3>Knap</h3>
+            <p>
+              Det får du med i pakken:
+              <li>Komprimering af billeder og videoer</li>
+              <br />
+              <li>Optimering af kode</li>
+              <br />
+              <li>Simpel informationsarkitektur</li>
+              <br />
+              <li>Design af userinterface</li>
+            </p>
+            <Bookbtn
+            link="/Contact"/>
             <Beforeandafter
             image1={foereksempel3}
             alt1="Example alt"
@@ -88,13 +105,28 @@ export default function Products() {
 
           <div className="foldercontent">
             <Folderdescribtion
-            fdescribtion="Rebranding beskrivelse beskrivelse Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-            Proin nibh nisl condimentum id venenatis. Elementum tempus egestas sed sed risus pretium quam vulputate. 
-            
-            Porttitor leo a diam sollicitudin tempor id. Amet justo donec enim diam vulputate. Ipsum nunc aliquet bibendum enim."
+            fdescribtion="Her får du hele pakken!
+            Vi går all in og optimere dit website på alle parameter vi ved er mulige. 
+            Det er til virksomheder, der godt kunne bruge en rebranding i den mere miljøvenlige retning. "
             />
-            <h3>Knap</h3>
+            <p>
+              Det får du med i pakken:
+              <li>Komprimering af billeder og videoer</li>
+              <br />
+              <li>Optimering af kode</li>
+              <br />
+              <li>Simpel informationsarkitektur</li>
+              <br />
+              <li>Design af userinterface</li>
+              <br />
+              <li>Logo</li>
+              <br />
+              <li>Kommunikationsstrategier</li>
+              <br />
+              <li>Vedligeholdelse af content</li>
+            </p>
+            <Bookbtn
+            link="/Contact"/>
             <Beforeandafter
             image1={foereksempel2}
             alt1="Example alt"

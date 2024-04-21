@@ -3,7 +3,7 @@ import React from 'react';
 function Bookbtn({ link }) {
   return (
     <div className="Bookbtn">
-      <a href={link}>Læs mere</a>
+      <a href={link}>Book et møde</a>
     </div>
   );
 }
