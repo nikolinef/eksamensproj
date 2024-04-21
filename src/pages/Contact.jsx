@@ -3,6 +3,7 @@ import Folderdescribtion from "../components/Folderdescribtion";
 import folderarrow from "../assets/folderpilned.svg";
 import Vejledningstid from '../components/Vejledningstid';
 import Costumerrequest from '../components/Costumerrequest';
+import FAQ from '../components/FAQ';
 
 export default function Contact() {
 
@@ -39,6 +40,30 @@ export default function Contact() {
           <div className="foldercontent">
             <Folderdescribtion
             fdescribtion="Vi har samlet svarene på de hyppigste spørgsmål vi får:"
+            />
+            <FAQ 
+            question="Hvornår får jeg svar på min forespørgsel?"
+            answer="Det gør du snarest muligt. Vi bestræber os på at give svar samme dag eller arbejdsdagen efter."
+            />
+            <br />
+            <FAQ 
+            question="Hvordan kontakter jeg Evergreen uden for kontortid?"
+            answer="Til vores samtaler, får du nummeret på vores hotline, hvor vil vil prøve at hjælpe med akutteproblemer."
+            />
+            <br />
+            <FAQ 
+            question="Hvordan komprimere jeg filerne?"
+            answer="Der findes forskellige hjemmesider, som kan komprimere de filtyper, vi anbefaler, yderligere."
+            />
+            <br />
+            <FAQ 
+            question="Hvad er SEO?"
+            answer="Search Engine Optimization. - Hjælper forskellige bots med at læse dit website bedre for at opnå højere visning på søgemaskiner som fx Google."
+            />
+            <br />
+            <FAQ 
+            question="Hvem er Tom GreenWood?"
+            answer="Tom Greenwood er forfatter til bogen Sustainable Web Design, og med udvikler af Sustainable Web Manifesto. Vi er inspireret og motiveret af Greenwood."
             />
             <Folderdescribtion
             fdescribtion="Har du stadig ikke fået svar, er du selvfølgelig velkommen til at kontakte os. Se træffetider under Rådgivning og vejledning"
