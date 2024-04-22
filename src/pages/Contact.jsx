@@ -4,12 +4,13 @@ import folderarrow from "../assets/folderpilned.svg";
 import Vejledningstid from '../components/Vejledningstid';
 import Costumerrequest from '../components/Costumerrequest';
 import FAQ from '../components/FAQ';
+import React, {useState} from 'react';
 
-export default function Contact() {
+export default function Homepage() {
 
     return (
         <>
-<div className="baggrund">
+        <div className="baggrund">
 
         <Centertekst overskrift="Kontakt Evergreen" brodtekst="Her kan du sende en forespørgsel på et møde eller stille os andre spørgsmål. Husk at vi har en FAQ, hvor du sandsynligvis kan finde svar på dine spørgsmål, ellers er du velkommen til at kontakte os på mail eller telefon" />
 
@@ -28,7 +29,7 @@ export default function Contact() {
             fdescribtion="Til mødet vil vi sammen snakke om de forskellige optimeringsmuligheder og behov, din virksomhed har, og vil fastlægge et forløb der passer jeres kalender."
             />
             <Costumerrequest />
-
+            
 
           </div>
         </div>
