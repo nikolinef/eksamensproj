@@ -28,15 +28,36 @@ export default function About() {
       <br /><br />
 
         <div className="leftTekst">
-            <h2 className="leftTekst">Hvad er bæredygtigt webdesign? og hvorfor er det vigtigt</h2>
+            <h2 className="leftTekst">Hvad er bæredygtigt webdesign? og hvorfor er det vigtigt?</h2>
             <p className="leftTekst">
-                Bæredygtigt webdesign er en tilgang til at udvikle og vedligeholde hjemmesider, der tager hensyn til miljømæssige, sociale og økonomiske faktorer. Dette indebærer at minimere den miljømæssige påvirkning af websider ved at reducere CO2-udledning, energiforbrug og ressourceforbrug.
+                Bæredygtigt webdesign er en tilgang til at optimere digitale løsninger, der tager hensyn til miljøet og brugeroplevelsen. Dette indebærer at reducere CO2-udledning og strømforbruget ved brug af internettet og elektroniske enheder.
                 <br /><br />
-                Bæredygtigt webdesign er vigtigt af flere grunde. For det første har internettet en betydelig miljøpåvirkning på grund af datacentre, servere og elektroniske enheder, der bruges til at hoste og tilgå websider. Ved at implementere bæredygtige praksisser kan vi reducere denne påvirkning og bidrage til at bevare naturressourcer og mindske klimaforandringer.
+                Vores forbrug har en betydelig miljøpåvirkning på grund af datacentre, servere og elektroniske enheder, der bruges til at hoste og tilgå websites. Ved at implementere optimeringer kan vi reducere CO2-udledningen og minimere miljøforureningen.
+                <br /><br />
+                I 2019 skrev Tom Greenwood et webmanifest i samarbejde med designere, udviklere og andre professionelle inden for web, for at skabe opmærksomhed om bæredygtighed i vores branche.
+                <br />
+                <br />
+                Bæredygtig webdesign går ud på at lave webløsninger og andre digitale løsninger, som lever op til de 6 fundamentale principper fra web manifestet. 
+                <li>Clean</li>
+                <br />
+                <li>Effecient</li>
+                <br />
+                <li>Open</li>
+                <br />
+                <li>Honest</li>
+                <br />
+                <li>Regenerative</li>
+                <br />
+                <li>Resilient</li>
+                <br /><br />
+                Du kan læse mere om principperne på manifestets hjemmeside:
+                <a href="https://www.sustainablewebmanifesto.com/" target="_blank" rel="noopener" >www.sustainablewebmanifesto.com/</a>
+                <br />
+                Tom Greenwood har også skrevet bogen "Sustainable Web Design", 2021, som er vores kilde til dette afsnit. Vi har læst bogen og er blevet inspireret og motiveret af Greenwood. 
                 <br /><br />
                 Derudover kan bæredygtigt webdesign forbedre brugeroplevelsen og ydeevnen på hjemmesider. Ved at optimere indlæsningstider, reducere unødvendige ressourcer og sikre en intuitiv navigation kan brugere få en bedre oplevelse, hvilket kan føre til øget tilfredshed, længere besøgstider og højere konverteringsrater.
                 <br /> <br />
-                Endelig er bæredygtigt webdesign også vigtigt fra et brand- og omdømmeperspektiv. Virksomheder, der viser et engagement i bæredygtighed, kan tiltrække og fastholde kunder, der værdsætter miljøvenlige praksisser. Det kan også differentiere virksomhederne i et konkurrencepræget marked og styrke deres position som samfundsansvarlige aktører.
+                Endelig er bæredygtigt webdesign også vigtigt fra et brand- og omdømmeperspektiv. Virksomheder, der viser et engagement i bæredygtighed, kan tiltrække og fastholde kunder, der værdsætter miljøvenlige tiltag. Det kan også differentiere virksomhederne i et konkurrencepræget marked og styrke deres position som samfundsansvarlige aktører.
             </p>
         </div>
         

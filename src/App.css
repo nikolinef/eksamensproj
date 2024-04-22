@@ -439,6 +439,7 @@ nav{
   padding: 5px 0;
   border-radius: 25px;
   background-color: #CBB89D;
+  color: #412F26;
   transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
