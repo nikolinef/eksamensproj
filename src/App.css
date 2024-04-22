@@ -7,6 +7,16 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.centerTekst h1 {
+  font-size: 40pt;
+}
+
+#MedarbejderH {
+  padding: 5% 0;
+  font-size: 40pt;
+}
+
+
 .baggrund {
   background-color: #40432D;
   padding-bottom: 5%;
@@ -145,6 +155,10 @@ nav{
   justify-content: space-between;
 }
 
+.folderheadline h2{
+  font-size: 25pt;
+}
+
 .folderarrow{
   height: 5dvh;
   transition: transform 0.5s ease-in;
@@ -153,7 +167,6 @@ nav{
 
 .foldercontent{
   max-height: auto; /* 7dvh content showing når folder lukket*/
-  overflow: hidden;
   transition: max-height 1.4s ease;
 }
 
@@ -283,16 +296,15 @@ nav{
 
 .Bookbtn {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
+  justify-content: flex-start; 
+  align-items: center; 
   margin-top: 20px;
   width: 12%;
   padding: 5px 0;
   border-radius: 25px;
   background-color: #CBB89D;
   transition: width 0.5s, height 0.5s, transform 0.5s; 
+  margin-bottom: 1%;
 }
 
 .Bookbtn a {
@@ -300,11 +312,13 @@ nav{
   color: #412F26;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: auto;
 }
 
 .Bookbtn:hover {
   transform: scale(1.3); 
 }
+
 
 
 /***** FUN FACTS *****/
@@ -446,3 +460,60 @@ nav{
 .subBtn:hover {
   transform: scale(1.3); 
 }
+
+
+/******** MEDARBEJDER SIDE ***/
+
+.MedarbejderKasse {
+  background-color: #CBB89D;
+  width: 50%;
+  padding: 2% 0;
+  margin: 0 auto; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  border-radius: 25px;
+}
+
+.MedarbejderKasseIndhold {
+  width: 80%;
+  display: flex; 
+  align-items: center;
+}
+
+.MedarbejderInfo {
+  flex: 1; 
+  padding: 8px;
+  margin-right: 10px; 
+  border-radius: 4px;
+  background-color: #EDE1D2;
+  border-radius: 25px;
+  color: #412F26;
+}
+
+.MedarbejderKasseIndhold button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #EDE1D2;
+  color: #412F26;
+  cursor: pointer;
+  border: #412F26 solid 3px;
+  border-radius: 25px;
+}
+
+.MedarbejderKasseIndhold button:hover {
+  background-color: #412F26;
+  color: #EDE1D2;
+}
+
+.MedarbejderKasseIndhold img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; 
+}
+
+.PilOp {
+  transform: rotate(180deg);
+}
+
