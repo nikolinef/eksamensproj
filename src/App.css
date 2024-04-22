@@ -79,6 +79,7 @@
   margin: auto;
   width: 70%;
   background-color: #B9C186;
+  color: #412F26;
   padding: 2% 0;
   border-radius: 25px;
   margin-bottom: 2%;
@@ -89,6 +90,13 @@
   text-align: left;
 }
 
+.leftTekst a{
+  color: #412F26;
+  text-decoration: none;
+}
+.leftTekst a:hover{
+  text-decoration: underline;
+}
 
 
 /****** NAVBAR *******/
