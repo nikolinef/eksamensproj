@@ -1,6 +1,7 @@
 import folderarrow from "../assets/folderpilned.svg";
 import Stortlogo from "../components/Stortlogo";
 import Centertekst from "../components/Centertekst";
+import pageload from "../assets/pageloadevergreen.svg";
 import Folderdescribtion from "../components/Folderdescribtion";
 import { Link } from "react-router-dom";
 
@@ -61,8 +62,9 @@ export default function About() {
             </p>
         </div>
         
-        <Centertekst overskrift="Guide til optimering" brodtekst="Vi har prøvet at samle nogle af de opfordringer som Tom Greenwood skriver i hans bog Sustainable Web Design, 2021. Bogen har inspireret og motiveret os til at dele budskabet." />
+        <Centertekst overskrift="Guide til optimering" brodtekst="Vi har prøvet at samle nogle af de opfordringer som Tom Greenwood skriver i hans bog Sustainable Web Design, 2021. Bogen har inspireret og motiveret os til at dele budskabet. Alle tiltagene har effekt på pageload." />
 
+        <img src={pageload} alt="loadikon" style={{height: "30dvh", display: "flex", justifyContent: "center"}}/>
 
         <div className="onefolder" style={{backgroundColor: "#B9C186", color: "#412F26"}}>
           <div className="folderheadline">
